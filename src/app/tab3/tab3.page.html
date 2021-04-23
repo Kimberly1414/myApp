@@ -31,7 +31,7 @@
           <img src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y">
         </ion-avatar>
       <ion-label>
-          <h4>{{cont.name}}</h4>
+          <h3>{{cont.name}}</h3>
           <h4>{{cont.number}}</h4>
       </ion-label>
     </ion-item>
@@ -40,7 +40,7 @@
         <ion-icon slot="icon-only" name="trash" (click)="confirm(cont)"></ion-icon>
         </ion-item-option>
         <ion-item-option>
-          <ion-icon slot="icon-only" name="mail"></ion-icon>
+          <ion-icon slot="icon-only" name="mail" routerLink="/message" routerDirection="forward"></ion-icon>
         </ion-item-option>
 
       </ion-item-options>
