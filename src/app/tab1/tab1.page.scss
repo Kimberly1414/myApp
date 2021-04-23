@@ -1,0 +1,15 @@
+ion-img::part(image){
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 200px;
+    width: 200px; 
+    border-radius: 99px;
+}
+.profile{
+    text-align: center;
+    line-height: 10px;
+}
+
+ion-card{
+    --background: cyan;
+}
